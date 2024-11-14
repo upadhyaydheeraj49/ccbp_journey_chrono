@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.course-container {
+  padding: 10px;
+}
+.top-row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-heading {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.course-duration-container {
+  display: flex;
+  align-items: center;
+}
+.clock-icon {
+  color: #1e293b;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.duration {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.description {
+  color: #171f46;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.tags-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+.tag {
+  color: #1e293b;
+  padding: 10px;
+  font-family: 'Roboto';
+  margin: 10px 8px;
+  background-color: #80abdb54;
+  border-radius: 8px;
+  font-weight: 600;
+}
